@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Github page]()
-- Live Site URL: [Webpage]()
+- Solution URL: [Github page](https://github.com/artemkotko14/news-homepage)
+- Live Site URL: [Webpage](https://artemkotko14.github.io/news-homepage/)
 
 ## My process
 
