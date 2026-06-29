@@ -1,0 +1,48 @@
+@function rem($px, $base: 16) {
+  @return ($px / $base) * 1rem;
+}
+@function line-height($px, $font-size) {
+  @return ($px / $font-size);
+}
+@mixin text-preset-1 {
+  font-size: rem(56);
+  line-height: line-height(56, 56);
+  letter-spacing: rem(0);
+  font-weight: 800;
+}
+@mixin text-preset-2 {
+  font-size: rem(40);
+  line-height: line-height(40, 40);
+  letter-spacing: rem(0);
+  font-weight: 800;
+}
+@mixin text-preset-3 {
+  font-size: rem(32);
+  line-height: line-height(32, 32);
+  letter-spacing: rem(0);
+  font-weight: 700;
+}
+@mixin text-preset-4 {
+  font-size: rem(20);
+  line-height: line-height(24, 20);
+  letter-spacing: rem(0);
+  font-weight: 800;
+}
+@mixin text-preset-5 {
+  font-size: rem(18);
+  line-height: line-height(24, 18);
+  letter-spacing: rem(0);
+  font-weight: 800;
+}
+@mixin text-preset-6 {
+  font-size: rem(15);
+  line-height: line-height(26, 15);
+  letter-spacing: rem(0);
+  font-weight: 400;
+}
+@mixin text-preset-7 {
+  font-size: rem(14);
+  line-height: line-height(24, 14);
+  letter-spacing: rem(4.38);
+  font-weight: 700;
+}
