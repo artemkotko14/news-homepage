@@ -78,7 +78,6 @@ body {
   font-size: 1.125rem;
   line-height: 1.3333333333;
   letter-spacing: 0rem;
-  font-weight: 800;
   font-weight: 400;
   display: flex;
   flex-direction: column;
@@ -146,7 +145,9 @@ body {
   text-transform: uppercase;
   padding: 0.75rem 1.9525rem;
   align-self: flex-start;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .main-article-btn:hover,
@@ -340,7 +341,7 @@ body {
     margin: 0;
   }
   main {
-    grid-area: 2/1/span 6/4;
+    grid-area: 2/1 / span 6/4;
     display: flex;
     align-items: flex-start;
     gap: 2rem;
@@ -384,7 +385,7 @@ body {
     font-weight: 700;
   }
   .article-list {
-    grid-area: 8/1/span 2/4;
+    grid-area: 8/1 / span 2/4;
     display: flex;
     flex-direction: row;
     gap: 2.5rem;
@@ -394,4 +395,4 @@ body {
     height: 8.125rem;
     max-width: 21.3125rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
