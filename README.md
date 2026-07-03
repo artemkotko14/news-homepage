@@ -70,9 +70,9 @@ I also learned how to use the prefers-reduced-motion media query to respect user
   *,
   *::before,
   *::after {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
+    animation: none;
+    transition: none;
+    scroll-behavior: auto;
   }
 }
 ```

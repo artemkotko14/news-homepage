@@ -46,6 +46,12 @@ body {
     max-width: 100%;
   }
 }
+.close-menu {
+  width: rem(30.41);
+  height: rem(30.41);
+  align-self: flex-end;
+  padding: 0;
+}
 .open-menu,
 .close-menu {
   background: none;
@@ -58,12 +64,6 @@ body {
   &:focus-visible {
     outline: 2px solid $red500;
   }
-}
-.close-menu {
-  width: rem(30.41);
-  height: rem(30.41);
-  align-self: flex-end;
-  padding: 0;
 }
 
 .mobile-navbar {
@@ -331,8 +331,8 @@ body {
   *,
   *::before,
   *::after {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
+    animation: none;
+    transition: none;
+    scroll-behavior: auto;
   }
 }
