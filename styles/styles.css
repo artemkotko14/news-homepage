@@ -286,7 +286,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5rem) {
   .homepage {
     max-width: 38rem;
     position: relative;
@@ -312,7 +312,7 @@ body {
     padding: 0;
   }
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 59.5rem) {
   .homepage {
     max-width: 69.5rem;
   }
@@ -368,11 +368,10 @@ body {
   .main-article-text {
     grid-area: b;
   }
+
   .main-article-btn {
     grid-area: c;
-  }
-  .main-article-btn {
-    grid-column: 2/3;
+
     padding: 0.75rem 1.9375rem;
     max-width: 11.5625rem;
     max-height: 3rem;
