@@ -163,6 +163,12 @@ body {
     padding: 0;
   }
 }
+
+.featured-article-header {
+  @include text-preset-4;
+  color: $white;
+}
+
 .featured-article:focus,
 .featured-article:hover {
   cursor: pointer;
@@ -170,10 +176,7 @@ body {
     color: $gold400;
   }
 }
-.featured-article-header {
-  @include text-preset-4;
-  color: $white;
-}
+
 .featured-article-text {
   @include text-preset-6;
   color: $grey300;
