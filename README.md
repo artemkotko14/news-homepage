@@ -63,6 +63,20 @@ is a shortcut that give this result
 </ul>
 ```
 
+I also learned how to use the prefers-reduced-motion media query to respect users' accessibility preferences. By disabling animations and transitions globally when this setting is enabled, I made the website more comfortable for people who experience motion sensitivity while still preserving the full visual experience for everyone else.
+
+```css
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+```
+
 I learned about the inert attribute and how it can improve accessibility by making a section of the page completely non-interactive. The inert attribute also removes elements from the keyboard tab order and prevents screen readers from accessing them. I used it to disable interaction with the page content while the mobile navigation menu was open, creating a better user experience for both mouse and keyboard users.
 
 ```js

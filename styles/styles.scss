@@ -227,7 +227,7 @@ body {
 .hidden {
   display: none;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5rem) {
   .homepage {
     max-width: rem(608);
     position: relative;
@@ -250,7 +250,7 @@ body {
     padding: 0;
   }
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 59.5rem) {
   .homepage {
     max-width: rem(1112);
   }
@@ -303,11 +303,9 @@ body {
   .main-article-text {
     grid-area: b;
   }
+
   .main-article-btn {
     grid-area: c;
-  }
-  .main-article-btn {
-    grid-column: 2/3;
     padding: rem(12) rem(31);
     max-width: rem(185);
     max-height: rem(48);
@@ -326,5 +324,15 @@ body {
     flex: 1;
     height: rem(130);
     max-width: rem(341);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
   }
 }
