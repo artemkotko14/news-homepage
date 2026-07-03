@@ -192,6 +192,12 @@ body {
   gap: 1.5rem;
   height: rem(129);
 }
+
+.article-header {
+  color: $navy950;
+  @include text-preset-5;
+}
+
 .article-item:hover,
 .article-item:focus {
   cursor: pointer;
@@ -213,10 +219,7 @@ body {
   color: $red500;
   @include text-preset-4;
 }
-.article-header {
-  color: $navy950;
-  @include text-preset-5;
-}
+
 .article-text {
   color: $navy600;
   @include text-preset-6;
